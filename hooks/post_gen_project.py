@@ -22,15 +22,14 @@ _____________________________________________________________________________
     :::::::  '''''''''''   ''''''''''''':::. -'\  \       C. SWANSIGER
 _____':::::_____________________________________\__\_________________________
 
-If you have not done so already, create a conda environment for your new 
+If you have not done so already, create a pyenv environment for your new 
 project with:
 
 cd {{cookiecutter.repo_name}}
-conda create --name {{cookiecutter.repo_name}} python=3.8
-conda activate {{cookiecutter.repo_name}}
-conda env export > environment.yml
+pyenv virtualenv 3.11.1 {{cookiecutter.repo_name}}
+pyenv activate {{cookiecutter.repo_name}}
 
-Install your new project in your local conda environment with:
+Install your new project in your local environment with:
 
 pip install -e .
 
