@@ -3,5 +3,5 @@
     "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "package_name": "src",
     "description": "A truly neutral research cookie cutter", 
-     "github_username" : "rasand-arb",
+    "github_username" : "rasand-arb"
 }
